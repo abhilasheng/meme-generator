@@ -18,6 +18,7 @@ const generateMeme = () => {
         updateDetails(data.url,data.title,data.author)
     }); //pull img, title, author from json
 };
-if(generateMemeBtn){
+
 generateMemeBtn.addEventListener('click',generateMeme);
-}
+
+generateMeme();
